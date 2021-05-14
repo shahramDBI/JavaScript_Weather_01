@@ -97,7 +97,7 @@ let weatherForCity = async (city) => {
         updateForecast(forecast);
 }
 let init = () => {
-    weatherForCity('Dubai').then(() => document.body.style.filter = 'blur(0)');
+    weatherForCity('Tehran').then(() => document.body.style.filter = 'blur(0)');
 }
 init();
 
